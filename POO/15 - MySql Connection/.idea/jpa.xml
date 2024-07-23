@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig">
+    <option name="defaultUnitInitialized" value="true" />
+    <option name="newEntityIdStrategy" />
+    <option name="reLastEntityCreationPackage" value="src/Persistencia" />
+    <option name="renamerInitialized" value="true" />
+    <option name="reverseEngineeringLastDbConnectionId" value="0355430b-e591-42d7-b580-fc9848af49d5" />
+  </component>
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit name="Default" />
+      <persistence-unit name="persistencia" />
+    </persistence-units>
+  </component>
+</project>

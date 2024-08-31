@@ -1,8 +1,0 @@
-com\mycompany\sql_connection\Controller\exceptions\PreexistingEntityException.class
-com\mycompany\sql_connection\Controller\exceptions\IllegalOrphanException.class
-com\mycompany\sql_connection\Controller\ControladoraPersistencia.class
-com\mycompany\sql_connection\Sql_Connection.class
-com\mycompany\sql_connection\logica\Alumno.class
-com\mycompany\sql_connection\Controller\exceptions\NonexistentEntityException.class
-com\mycompany\sql_connection\logica\Controladora.class
-com\mycompany\sql_connection\Controller\AlumnoJpaController.class

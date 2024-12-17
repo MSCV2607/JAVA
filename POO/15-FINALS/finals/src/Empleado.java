@@ -23,6 +23,10 @@ class Empleado {
         return ID;
     }
 
+    public static String getIDsiguiente() {
+        return "El ID siguiente es " + IDsiguiente;
+    }
+
     public String getSeccion() {
         return "La seccion es " + seccion;
     }

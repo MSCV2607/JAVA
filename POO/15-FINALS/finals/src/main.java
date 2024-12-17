@@ -30,6 +30,9 @@ public class main {
         System.out.println(trabajador4.getNombre());
         System.out.println(trabajador4.getSeccion());
         System.out.println(trabajador4.getID());
+
+        System.out.println("\n");
+        System.out.println(Empleado.getIDsiguiente());
     }
 }
 

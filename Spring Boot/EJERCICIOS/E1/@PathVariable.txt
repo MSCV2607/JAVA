@@ -1,0 +1,2 @@
+
+1. Un profesor de matemáticas de primaria desea la realización de una API mediante la cual a partir de la recepción de dos números como parámetros de una URL, la misma devuelva la suma de ambos números por pantalla. Utilizar para este ejercicio la annotation @PathVariable

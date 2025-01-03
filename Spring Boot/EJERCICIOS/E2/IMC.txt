@@ -1,0 +1,7 @@
+2. Una nutricionista desea la realización de una API que a partir del ingreso del IMC (índice de masa corporal) de una persona en el parámetro de la url, le devuelva el estado de su peso. Para ello tener en cuenta los
+siguientes rangos:
+⚫ de 1 a 18.5: Peso insuficiente
+⚫ de 18.6 a 24.9: Peso normal
+⚫ de 25.0 a 29.9: Sobrepeso
+⚫ de 30 en adelante: Obesidad
+Tener en cuenta para la realización de este ejercicio la annotation @RequestParam

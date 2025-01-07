@@ -1,0 +1,5 @@
+Un restaurante posee un total de 5 platos en su menú. Cada uno de ellos tiene un número de plato, nombre, precio y breve descripción.
+
+a. El restaurante desea una aplicación que permita que los clientes sean capaces consultar los datos de los platos del menú a partir de proporcionar el número de plato. Para ello, se necesita el desarrollo de una API que a partir de la recepción del num de plato en una solicitud GET, devuelva el plato correspondiente con todos sus datos.
+
+Nota: Tener en cuenta que, como aún no se está trabajando con base de datos, los platos deben ser almacenados en una collection.

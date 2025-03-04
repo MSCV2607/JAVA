@@ -7,6 +7,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 @Controller
@@ -14,7 +15,7 @@ public class UserController {
     @GetMapping("/details")
     public String details(Model model) {
 
-        User user = new User("Mauro","Vecc");
+        User user = new User("Mauro","Vecc", "maurovecc@gmail.com");
         user.setEmail("Mauro@Vecc");
 
         model.addAttribute("title:", "Hola mundo spring");
@@ -25,7 +26,10 @@ public class UserController {
 
     @GetMapping("/list")
     public String list(ModelMap model) {
-        List<User> users = new ArrayList<>();
+        List<User> users = Arrays.asList(new User ("Pepa","Gonzales", "pepa@gmail.com"),
+                new User ("Mauro","Vecc", "mauro@vecc"),
+                new User("Alan", "Valo", "alan@valo"),
+                new User ("Mauro","Jacc"));
 
         model.addAttribute("users", users);
         model.addAttribute("title:", "Listado de usuarios");

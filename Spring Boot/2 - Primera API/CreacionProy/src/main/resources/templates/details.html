@@ -9,8 +9,11 @@
 <h1 th:text="${title}"></h1>
 
 <ul>
-  <li th:text="name"></li>
-  <li th:text="lastName"></li>
+  <li th:text="${user.name}"></li>
+  <li th:text="${user.lastName}"></li>
+
+  <li th:if="${user.email != null}" th:text="${user.email}"></li>
+
 </ul>
 
 </body>

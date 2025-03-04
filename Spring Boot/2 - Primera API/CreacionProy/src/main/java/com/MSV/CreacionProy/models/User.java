@@ -3,6 +3,7 @@ package com.MSV.CreacionProy.models;
 public class User {
     private String name;
     private String lastName;
+    private String email;
 
     public User() {
     }
@@ -26,5 +27,13 @@ public class User {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
